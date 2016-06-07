@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_two"
+    android:background="@drawable/ic_background"
     android:orientation="vertical"
     android:weightSum="3">
 
@@ -13,13 +13,10 @@
         android:layout_height="?android:actionBarSize"
         android:layout_marginBottom="?android:actionBarSize">
 
-            <TextView
+            <View
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_centerInParent="true"
-                android:text="test1"
-                android:textColor="#fff"
-                android:gravity="center"/>
+                />
 
     </LinearLayout>
 
@@ -46,20 +43,21 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:layout_width="190dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="70dp"
                         android:adjustViewBounds="true"
                         android:background="@drawable/ic_left_button"
                         android:clickable="true"
+                        android:onClick="onClickKarwans"
                         android:scaleType="fitXY" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="?android:actionBarSize"
-                        android:text="test1"
-                        android:textSize="30sp"
+                        android:layout_marginLeft="20dp"
+                        android:text="kname"
+                        android:textSize="25sp"
                         android:textStyle="bold" />
 
                 </RelativeLayout>
@@ -70,7 +68,7 @@
                     android:layout_gravity="right">
 
                     <ImageView
-                        android:layout_width="190dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="70dp"
                         android:adjustViewBounds="true"
                         android:background="@drawable/ic_right_button"
@@ -83,7 +81,7 @@
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="100dp"
                         android:text="test2"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textStyle="bold" />
 
                 </RelativeLayout>
@@ -94,7 +92,7 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:layout_width="190dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="70dp"
                         android:adjustViewBounds="true"
                         android:background="@drawable/ic_left_button"
@@ -105,9 +103,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="?android:actionBarSize"
-                        android:text="test1"
-                        android:textSize="30sp"
+                        android:layout_marginLeft="20dp"
+                        android:text="kname"
+                        android:textSize="25sp"
                         android:textStyle="bold" />
 
                 </RelativeLayout>
@@ -119,7 +117,7 @@
                     android:layout_gravity="right">
 
                     <ImageView
-                        android:layout_width="190dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="70dp"
                         android:adjustViewBounds="true"
                         android:background="@drawable/ic_right_button"
@@ -132,7 +130,7 @@
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="100dp"
                         android:text="test2"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textStyle="bold" />
 
                 </RelativeLayout>
