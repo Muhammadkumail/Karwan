@@ -14,8 +14,7 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
             android:text="kname"
             android:textSize="30dp"
             android:textStyle="bold"
@@ -29,7 +28,7 @@
         android:layout_height="match_parent"
       >
 <ListView
-    android:id="@+id/karwan_listview"
+    android:id="@+id/karwan_pakages_listview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"></ListView>
 

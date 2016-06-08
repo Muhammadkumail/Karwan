@@ -18,4 +18,9 @@ public class HomeActivity extends AppCompatActivity {
         Intent mintent=new Intent(HomeActivity.this,KarwansActivity.class);
         startActivity(mintent);
     }
+    public void onClickPakages(View view)
+    {
+        Intent mintent=new Intent(HomeActivity.this,KarwansPakagesActivity.class);
+        startActivity(mintent);
+    }
 }

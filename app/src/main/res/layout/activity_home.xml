@@ -73,6 +73,7 @@
                         android:adjustViewBounds="true"
                         android:background="@drawable/ic_right_button"
                         android:clickable="true"
+                        android:onClick="onClickPakages"
                         android:scaleType="fitXY" />
 
                     <TextView
